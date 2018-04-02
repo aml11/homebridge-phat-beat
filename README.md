@@ -27,4 +27,4 @@ Configuration parameters:
 - "accessory": "pHAT-BEAT",
 - "name": "PUT THE NAME OF YOUR BULB HERE",
 
-Look for a sample config in [config.json example](https://github.com/edjopato/homebridge-fake-rgb/blob/master/config-sample.json)
+Look for a sample config in [config.json example](https://github.com/roblan/homebridge-phat-beat/blob/master/config-sample.json)
