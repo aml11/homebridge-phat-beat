@@ -5,13 +5,9 @@
         "port": 51826,
         "pin": "031-45-154"
     },
-
-    "description": "Bla Bla Bla",
-
     "accessories": [{
-        "accessory": "Fake-RGB",
-        "name": "RGB Bulb"
+        "accessory": "pHAT-BEAT",
+        "name": "pHAT BEAT"
     }],
-
     "platforms": []
 }

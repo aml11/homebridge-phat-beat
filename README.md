@@ -1,13 +1,14 @@
-# homebridge-fake-rgb
+# homebridge-phat-beat
 
-An homebridge plugin that create an Fake RGB Bulb HomeKit accessory
+An homebridge plugin for controlling pHAT BEAT LEDs as RGB Bulb HomeKit accessory.
+Based on [homebridge-fake-rgb](https://github.com/EdJoPaTo/homebridge-fake-rgb).
 
 # Installation
 
-Follow the instruction in [homebridge](https://www.npmjs.com/package/homebridge) for the homebridge server installation. The plugin is published through [NPM](https://www.npmjs.com/package/homebridge-fake-rgb) and should be installed "globally" by typing:
+Follow the instruction in [homebridge](https://www.npmjs.com/package/homebridge) for the homebridge server installation. The plugin is published through [NPM](https://www.npmjs.com/package/homebridge-phat-beat) and should be installed "globally" by typing:
 
 ```bash
-npm install -g homebridge-fake-rgb
+npm install -g homebridge-phat-beat
 ```
 
 # Configuration
@@ -16,14 +17,14 @@ Remember to configure the plugin in config.json in your home directory inside th
 
 ```json
 "accessories": [{
-    "accessory": "Fake-RGB",
+    "accessory": "pHAT-BEAT",
     "name": "RGB Bulb"
 }]
 ```
 
 Configuration parameters:
 
-- "accessory": "Fake-RGB",
-- "name": "PUT THE NAME OF YOUR TEST BULB HERE",
+- "accessory": "pHAT-BEAT",
+- "name": "PUT THE NAME OF YOUR BULB HERE",
 
 Look for a sample config in [config.json example](https://github.com/edjopato/homebridge-fake-rgb/blob/master/config-sample.json)
