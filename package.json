@@ -1,6 +1,6 @@
 {
   "name": "homebridge-phat-beat",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "pHAT BEAT LED RGB plugin for homebridge: https://github.com/roblan/homebridge-phat-beat",
   "license": "MIT",
   "keywords": [
