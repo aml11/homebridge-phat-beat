@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "colorsys": "^1.0.10",
-    "phatbeat": "^1.0.0"
+    "phatbeat": "git+git@github.com:aml11/phatbeat-node.git"
   }
 }
